@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 70vh; 
+    background-image: linear-gradient(rgba(12, 12, 12, 0.5), rgba(21, 20, 20, 0.5)), url("bg.jpg");
+}
+
+nav{
+    height: 60px;
+    display: flex; 
+    color: white;
+}
+.logo{ 
+    align-items: center;
+    font-weight: bolder; 
+    color: white;
+    margin: 10px 0 10px 25px;
+    font-size:24px;
+} 
+/* carousel */
+.carouselbg {
+    position: relative;
+    overflow: hidden;
+    width: 100%; 
+height :100%;
+    margin: auto;
+}
+.mt-10px{
+    margin-top: 10px;
+}
+
+.carousel {
+    display: flex;
+    align-items: center; 
+    margin-top: 8%;
+    margin-left: 10%;
+    margin-right: 10%;
+    transition: transform 0.5s ease;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.carousel img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-controls {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.carousel-controls button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+ 
+.menu{
+    display:flex; 
+    align-items: center;
+    justify-content:space-between;
+    width: 100%;
+    top: 0; /* Stick to the top */
+    position: fixed;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.5), rgba(21, 20, 20, 0.5)), url("bg.jpg");
+
+}
+.menu ul{
+    display: inline-block;    
+    margin-left: 60vw;
+}
+.menu ul li{
+    display: inline-block;
+    justify-content:center;  
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;  
+}
+
+button{
+    margin: 15px;
+    padding: 10px;
+    background: none; 
+    border: none;
+    
+}
+a{
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+button:hover{
+    background-color:rgba(255, 255, 255, 0.307);
+    color: black;
+}
+.home{
+    margin: 20vh 0 0 4vw;
+    color: white;
+    font-size: 2rem;
+    font-weight:bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main{
+    display: flex;
+    height: 70vh;
+    width: 99vw;
+    background-color:palevioletred;
+}
+
+.features{
+    display: inline-block;  
+    font-size: larger; 
+}
+.features img{ 
+        height: 25vh; 
+}
+.f1
+{
+    display: inline-block;   
+    margin: 20vh 0 20vh 16vw;  
+    text-align: center; 
+     
+}
+.f2{
+    display: inline-block;  
+    margin: 20vh 0 20vh 16vw; 
+    text-align: center;  
+}
+.f3{
+    display: inline-block;
+    margin: 20vh 0 20vh 16vw; 
+    text-align: center;  
+}
+
+ 
+.carouselbg{
+    background-image: url(bg2.jpg);
+    height: 60vh;
+    width: 99vw;
+    background-size: contain;  
+}
+.carousel{ 
+    display: inline-block;       
+} 
+.r1{
+    text-align: center;
+    height: 40vh;
+    width: 55vw; 
+    display:inline-block;   
+    margin:10vh 20vw 10vh 20vw;   
+}
+.r2{
+    text-align: center;
+    height: 40vh;
+    width: 55vw; 
+    display:inline-block;    
+    margin:10vh 20vw 10vh 20vw;   
+}
+.r3{
+    text-align: center;
+    height: 40vh;
+    width: 55vw; 
+    display:inline-block;     
+    margin:10vh 20vw 10vh 20vw;   
+}
+ 
+.carousel img{ 
+    border-radius: 100px;
+    width: 10vw;
+    height: 20vh;
+} 
+
+.mem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 99vw;
+}
+.mp button{
+    background-color: rgba(155, 23, 155, 0.596);
+    color: white;   
+    width: 20vw;
+}
+.mp{ 
+    margin-top: 20px;
+    text-align: center;
+    font-size: larger;
+    line-height: 45px;
+    display:inline-block;  
+    align-items: center;
+    height: 60vh;
+
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 25vw;
+    display: inline-block;
+    border: solid black 4px;
+    padding:20px;
+    margin: 40px;
+} 
+.down{
+    background-image: url(bg2.jpg);
+    height: 50vh;
+    color: white;  
+    text-align: center;
+}
+.btn{
+    display: inline-block; 
+    margin: 23vh; 
+
+}
+#btn1{
+    border: white 2px solid;
+    background-color: black;
+    color:white;
+}
+#btn2{
+    border:black 2px solid;
+    background-color: white;
+    color:black;
+} 
+
+.work{
+    background-color: rgb(237, 233, 233);
+    text-align: center;
+    padding: 30px;
+}
+
+.work img{
+    height: 35vh;
+    width: 25vw;
+    margin: 30px;
+}
+ 
+.map
+{
+    height: 30vh;
+    width: 30vw;
+    padding: 20px;
+    display: inline-block;
+}
+.box2{
+    display: inline-block;
+    margin-left: 30vw;
+}
+
+.form{
+    text-align: center;
+    padding:10vh 20vw 0 0;  
+}
+.form button{
+    background-color: rgba(155, 23, 155, 0.596);
+    color: white;   
+    width: 20vw;
+}
+
+.mess{
+    background-image: url(bg2.jpg);
+    background-size: contain;
+    height: 70vh;
+    display: flex;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
